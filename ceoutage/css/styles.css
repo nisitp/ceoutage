@@ -1,0 +1,174 @@
+#chart {
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+
+/*
+.wp_noc-additional{
+	text-align: left !important;
+}
+*/
+/*  -- To debug on Ce server END -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+#introduction{
+    display: table;
+    position: absolute;
+	background: white;
+	color: #4D4D4D;
+	padding: 40px;
+	width: 350px;
+	min-width: 200px;
+	min-height: 200px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	top: 32%;
+	margin: 0 auto;
+	left: 25%;
+	height: 350px;
+	font-family: "Verdana";
+	font-size: 1.5em ;
+	text-align: center;
+	z-index: 10;
+}
+.intro-content{
+    display: table-cell;
+    vertical-align: middle;
+}
+.intro-content p{
+	font-size: 1.5rem  ;
+/*
+	margin-left: 1em;
+    margin-right: 1em;
+*/
+}
+.button{
+    padding: 15px 30px;
+    margin-top: 0em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+	display: block;
+	background: #68A346;
+	color: white !important;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Verdana";
+	font-size: 1em ;
+	text-transform: uppercase;
+	display: inline-block;
+}
+@media only screen and (max-width: 5000px) {
+    #chart {
+        max-width: 650px;
+        max-height: 700px;
+        min-height: 700px;
+        
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #chart {
+		max-height: 90vw;
+        min-height: 90vw;
+
+    }
+    
+}
+@media only screen and (max-width: 749px) {
+    #chart {
+		max-height: 95vw;
+        min-height: 95vw;
+
+    }
+    
+}
+@media only screen and (max-width: 710px) {
+    #chart {
+		max-height: 100vw;
+        min-height: 100vw;
+
+    }
+    
+}
+@media only screen and (max-width: 635px) {
+   
+    #introduction{
+		padding: 12px;
+		width: 180px;
+		top: 10%;
+		height: 180px;
+		font-size: 1.30em ;
+	}
+	#introduction p{
+		font-size: 1.30em ;
+	}
+	.button{
+    	padding: 10px 20px;
+		margin-top: 0em;
+		font-size: 0.81em ;
+		display: inline-block;
+	}
+}
+@media only screen and (max-width: 610px) {
+    #introduction , #introduction p{
+		font-size: 1.2em ;
+	}
+}
+@media only screen and (max-width: 525px) {
+    #introduction, #introduction p{
+		font-size: 1.15em ;
+	}
+}
+@media only screen and (max-width: 485px) {
+    #introduction, #introduction p{
+		font-size: 1.1em ;
+	}
+}
+@media only screen and (max-width: 450px) {
+    #introduction, #introduction p{
+		font-size: 1em ;
+	}
+}  
+#chart .pie{
+/* 	margin: 25px; */
+}
+    
+.pie text {
+    font-family: "Verdana";
+    fill: #4D4D4D;
+}
+
+.pie .name-text {
+    font-size: 2em ;
+}
+
+.pie .value-text {
+    font-size: 3em ;
+}
+
+.pie .content-text {
+    font-size: 1em ;
+}
+
+g,
+path {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+g.text-group {
+    pointer-events: none;
+}
